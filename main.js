@@ -7,4 +7,8 @@ function countCars() {
         carCounter += 1;
     }   
 
+    if (carCounter === maxCars) {
+        window.alert("The garage is full. No more cars can enter.");
+    }
+
 }
